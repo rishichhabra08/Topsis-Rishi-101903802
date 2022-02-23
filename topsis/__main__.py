@@ -14,7 +14,7 @@ def main():
     args = parser.parse_args()
     print(args.filepath, args.weights, args.output, args.impacts,args.output)
 
-    filename = args.filename
+    filename = args.filepath
     weights = args.weights
     impacts = args.impacts
     output = args.output

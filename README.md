@@ -7,8 +7,7 @@
 ## How to use it?
 Open terminal and type topsis and then enter details
 
-##Syntax
-
+## Syntax
 ```python topsis -f [filepath] -w [weights] -i=[impacts] -o [output]```
 
 ## License

@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="Topsis-Rishi-101903802",
-    version="1.0.2",
+    version="1.0.3",
     description="it is designed to provide a user-friendly graphical interface to solve large MCDM problems using TOPSIS",
     long_description=README,
     long_description_content_type="text/markdown",
