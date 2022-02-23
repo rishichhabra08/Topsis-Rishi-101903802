@@ -10,11 +10,11 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="Topsis-Rishi-101903802",
-    version="1.0.0",
+    version="1.0.1",
     description="it is designed to provide a user-friendly graphical interface to solve large MCDM problems using TOPSIS",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/rishichhabra08/Topsis-Rishi-101903802",
     author="Rishi Chhabra",
     author_email="chhabrarishi844@gmail.com",
     license="MIT",
@@ -26,7 +26,11 @@ setup(
     ],
     packages=["topsis"],
     include_package_data=True,
-    install_requires=[],
+    install_requires=[
+        'numpy',
+        'pandas',
+        'argparse',
+    ],
     entry_points={
         "console_scripts": [
             "topsis=topsis.__main__:main",
